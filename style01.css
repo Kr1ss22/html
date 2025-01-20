@@ -1,0 +1,29 @@
+/* global */
+*{
+margin: 0;
+padding 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+background-color: #ededed;
+
+}
+
+.container{
+    background-color: #fff;
+    max-width: 1200px;
+    margin:auto;
+}
+
+/*header*/
+.header{
+    background-color: #565656;
+    color: #fff;
+}
+/*content*/
+
+.content img{
+    width: 100%;
+}
+
