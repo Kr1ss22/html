@@ -4,76 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minu Lingid</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
             background-color: #f4f4f9;
-            color: #333;
         }
-        h1 {
-            color: #007ACC;
+        .container {
+            max-width: 800px;
+            margin-top: 20px;
         }
-        a {
-            color: #007ACC;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin: 10px 0;
+        .card {
+            margin-bottom: 20px;
         }
     </style>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <h1>Minu HTML-lehed</h1>
-    <p>Siin on lingid kõikidele HTML-lehtedele:</p>
-    <ul>
-        <li><a href="H05.html">Harjutus 5</a></li>
-        <li><a href="css.html">CSS</a></li>
-        <li><a href="h01.html">Harjutus 1</a></li>
-        <li><a href="ho2.html">Harjutus 2</a></li>
-        <li><a href="ho3.html">Harjutus 3</a></li>
-        <li><a href="index.html">index</a></li>
-        <li><a href="index3.html">iseseisev3</a></li>
-        <li><a href="kontakt.html">kontakt</a></li>
-        <li><a href="style01.css">style01.css</a></li>
-        <li><a href="style03.css">style03.css</a></li>
-        <li><a href="taust.png">taust.png</a></li>
-        <li><a href="teenused.html">teenused</a></li>
-    </ul>
-
-    <h2>BOOTSTRAPI HARJUTUSED</h2>
-    <ul>
-        <li><a href="css/KT.html">KT.html</a></li>
-        <li><a href="css/bootstrap.min.css">bootstrap.min.css</a></li>
-        <li><a href="css/harjutus07.html">harjutus07.html</a></li>
-        <li><a href="css/harjutus1.html">harjutus1.html</a></li>
-        <li><a href="css/harjutus2.html">harjutus2.htm</a></li>
-        <li><a href="css/harjutus3.html">harjutus3.html</a></li>
-        <li><a href="css/harjutus4.html">harjutus4.html</a></li>
-        <li><a href="css/harjutus5.html">harjutus5.html</a></li>
-        <li><a href="css/harjutus6.html">harjutus6.html</a></li>
-        <li><a href="css/harjutus8.html">harjutus8.html</a></li>
-        <li><a href="css/harjutus9.html">harjutus9.html</a></li>
-        <li><a href="css/punane.jpg">taust</a></li>
-        <li><a href="css/nemo.png">pilt</a></li>
-        <li><a href="css/nemo1.png">pilt</a></li>
-        <li><a href="css/nemo2.png">pilt</a></li>
-        <li><a href="css/nemo3.png">pilt</a></li>
-        <li><a href="css/taust.jpg">pilt</a></li>
-        <li><a href="css/vihm.jpg">pilt</a></li>
-    </ul>
-
-    <!-- Bootstrap JS (vajadusel) -->
+    <div class="container">
+        <h1 class="text-primary text-center">Minu HTML-lehed</h1>
+        <p class="text-center">Siin on lingid kõikidele HTML-lehtedele:</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML-lehed</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="H05.html">Harjutus 5</a></li>
+                            <li class="list-group-item"><a href="css.html">CSS</a></li>
+                            <li class="list-group-item"><a href="h01.html">Harjutus 1</a></li>
+                            <li class="list-group-item"><a href="ho2.html">Harjutus 2</a></li>
+                            <li class="list-group-item"><a href="ho3.html">Harjutus 3</a></li>
+                            <li class="list-group-item"><a href="index.html">Index</a></li>
+                            <li class="list-group-item"><a href="index3.html">Iseseisev 3</a></li>
+                            <li class="list-group-item"><a href="kontakt.html">Kontakt</a></li>
+                            <li class="list-group-item"><a href="teenused.html">Teenused</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap Harjutused</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="css/KT.html">KT.html</a></li>
+                            <li class="list-group-item"><a href="css/harjutus07.html">Harjutus 07</a></li>
+                            <li class="list-group-item"><a href="css/harjutus1.html">Harjutus 1</a></li>
+                            <li class="list-group-item"><a href="css/harjutus2.html">Harjutus 2</a></li>
+                            <li class="list-group-item"><a href="css/harjutus3.html">Harjutus 3</a></li>
+                            <li class="list-group-item"><a href="css/harjutus4.html">Harjutus 4</a></li>
+                            <li class="list-group-item"><a href="css/harjutus5.html">Harjutus 5</a></li>
+                            <li class="list-group-item"><a href="css/harjutus6.html">Harjutus 6</a></li>
+                            <li class="list-group-item"><a href="css/harjutus8.html">Harjutus 8</a></li>
+                            <li class="list-group-item"><a href="css/harjutus9.html">Harjutus 9</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="css/bootstrap.bundle.min.js"></script>
 </body>
 </html>
