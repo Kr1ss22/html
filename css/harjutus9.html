@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Table</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .table thead th {
+            background-color: #343a40;
+            color: white;
+        }
+        .rounded-circle {
+            border-radius: 50%;
+        }
+        .btn-edit {
+            background-color: #ffc107;
+            color: white;
+        }
+        .btn-edit:hover {
+            background-color: #e0a800;
+        }
+        .btn-delete {
+            background-color: #dc3545;
+            color: white;
+        }
+        .btn-delete:hover {
+            background-color: #c82333;
+        }
+        .btn-add {
+            background-color: #28a745;
+            color: white;
+        }
+        .btn-add:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h3 class="mb-4">Kasutajad</h3>
+        <div class="d-flex justify-content-between mb-3">
+            <button class="btn btn-add">+ Lisa uus</button>
+            <div class="input-group" style="width: 300px;">
+                <input type="text" class="form-control" placeholder="Otsi">
+                <div class="input-group-append">
+                    <button class="btn btn-secondary" type="button">Otsi</button>
+                </div>
+            </div>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Pilt</th>
+                    <th scope="col">Nimi</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Tegevus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><img src="https://via.placeholder.com/50" class="rounded-circle" alt="User 1"></td>
+                    <td>Ülle Doos</td>
+                    <td>heli@kopter.ee</td>
+                    <td>
+                        <button class="btn btn-edit btn-sm">Muuda</button>
+                        <button class="btn btn-delete btn-sm">Kustuta</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="https://via.placeholder.com/50" class="rounded-circle" alt="User 2"></td>
+                    <td>Karin Eegreid</td>
+                    <td>karin@eegreid.ee</td>
+                    <td>
+                        <button class="btn btn-edit btn-sm">Muuda</button>
+                        <button class="btn btn-delete btn-sm">Kustuta</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="https://via.placeholder.com/50" class="rounded-circle" alt="User 3"></td>
+                    <td>Anna Musu</td>
+                    <td>anna@musu.ee</td>
+                    <td>
+                        <button class="btn btn-edit btn-sm">Muuda</button>
+                        <button class="btn btn-delete btn-sm">Kustuta</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><img src="https://via.placeholder.com/50" class="rounded-circle" alt="User 4"></td>
+                    <td>Aili Bastusin</td>
+                    <td>aili@libastusin.ee</td>
+                    <td>
+                        <button class="btn btn-edit btn-sm">Muuda</button>
+                        <button class="btn btn-delete btn-sm">Kustuta</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">Eelmine</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Järgmine</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

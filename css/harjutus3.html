@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustkivi.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .post img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .post {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .text {
+            flex: 1;
+            padding-left: 20px;
+        }
+        @media (max-width: 768px) {
+            .post {
+                flex-direction: column;
+                text-align: center;
+            }
+            .post img {
+                width: 150px;
+                height: 150px;
+            }
+            .text {
+                padding-left: 0;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-4">
+        <h1 class="text-start">SinuNimi.com</h1>
+        <div class="mb-4">
+            <img src="nemo3.png" alt="Päisepilt" class="img-fluid w-100" style="height: 400px; object-fit: cover;">
+        </div>
+        <div class="post">
+            <img src="nemo.png" alt="Pilt 1">
+            <div class="text">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos alias facilis neque qui iusto laborum nobis libero doloribus officiis quas aliquam voluptatum sequi, excepturi non aperiam? Commodi ipsum amet officiis maxime culpa optio deleniti sapiente libero aut explicabo laboriosam at temporibus autem hic officia praesentium, reiciendis ad modi assumenda. Deserunt!</p>
+            </div>
+        </div>
+        <div class="post">
+            <img src="nemo1.png" alt="Pilt 2">
+            <div class="text">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum sapiente ea quisquam vitae nostrum a totam eius voluptas rerum consectetur? Repellendus sed molestiae in earum quis vitae, eos consectetur neque corrupti, culpa atque. Impedit temporibus ducimus odit repellat doloremque pariatur, perspiciatis id debitis adipisci neque ab sed ipsam cupiditate illum?</p>
+            </div>
+        </div>
+        <div class="post">
+            <img src="nemo2.png" alt="Pilt 3">
+            <div class="text">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati porro at esse possimus, dolores perferendis aperiam cum? Odit, distinctio necessitatibus soluta voluptatibus, illo atque sapiente doloribus harum maxime asperiores dignissimos excepturi voluptatum ipsa quis est tempore nihil voluptatem. Suscipit modi adipisci, officia explicabo numquam voluptatum labore dolore nisi incidunt obcaecati.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
